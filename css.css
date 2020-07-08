@@ -1,0 +1,42 @@
+
+h1::before {
+    content: url(image/laco.png);
+}
+h1::after{
+    content: url(image/icon.png);
+}
+
+
+
+p:first-line {
+    color:chartreuse;
+    font-variant: small-caps;
+    font-size: 20px;
+    
+}
+p::first-letter {
+    color: indianred;
+    font-size: 30px;
+}
+
+::selection {
+    color: goldenrod;
+    background: fuchsia;
+}
+a:hover {
+    color: lightblue;
+    background-color: lightcoral;
+}
+a.nhacol:hover {
+    color: lime;
+    background-color: mediumblue;
+}
+div {
+    background: mediumblue;
+    padding: 35px;
+    text-align: center;
+    color: mintcream;
+}
+div:hover {
+    background: orangered;
+}
