@@ -1,0 +1,56 @@
+.card-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#icon-menu-con {
+    width: 35px;
+    height: 35px;
+    border: #cccccc 2px solid;
+    border-radius: 5px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#icon-menu-con:hover {
+    opacity: 0.5;
+}
+
+/* phần main body */
+#card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#card-body>p {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#card-body>h5 {
+    cursor: pointer;
+}
+
+#card-body>h5:hover {
+    font-size: 21px;
+}
+
+.card>div>img {
+    cursor: pointer;
+}
+
+.card>div>img:hover {
+    opacity: 0.5;
+}
+
+#main-body {
+    background-color: #f6f6f6;
+}

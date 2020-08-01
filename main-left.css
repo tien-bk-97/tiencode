@@ -1,0 +1,36 @@
+#card-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+#card-menu>a {
+    color: brown;
+    border-left: 1px solid olive;
+    margin-left: 5px;
+    padding-left: 20px;
+}
+
+#card-menu>a:hover {
+    color: olive;
+}
+
+#card-item {
+    font-weight: bold;
+}
+
+#accordion1,
+#accordion {
+    border-top: 4px solid green;
+}
+
+.form-check {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    border-bottom: 1px solid;
+}
+
+.form-check>label {
+    font-weight: bold;
+    color: darkorange;
+}

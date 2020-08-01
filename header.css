@@ -1,0 +1,125 @@
+.menu-top {
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 28px;
+    background-color: steelblue;
+}
+
+.menu-top-left>b {
+    margin-right: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.menu-top-left>b:hover {
+    color: darkred;
+}
+
+.menu-top-right>b {
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.menu-top-right>b:hover {
+    color: darkgoldenrod;
+}
+
+/* phân menu botdom */
+#menu-botdom {
+    background-color: #f6f6f6;
+    /* box-shadow: 2px 2px 2px #AAA; */
+    /* -moz-box-shadow: 3px 3px #666;
+    -webkit-box-shadow: 3px 3px #666;
+    box-shadow: 3px 3px #666; */
+}
+
+#list-btn {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    color: darkblue;
+    background-color: #f6f6f6;
+    border: none;
+    height: 60px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: lightgrey;
+    color: darkred;
+}
+
+/* phần slide */
+#demo {
+    height: 500px;
+    width: 1140px;
+}
+
+.carousel-indicators>li {
+    height: 16px;
+    width: 16px;
+    background-color: brown;
+    border: 1px solid brown;
+    border-radius: 8px;
+}
+
+/* phần tiêu đề */
+#icon-h1 {
+    height: 4px;
+    background-color: darkblue;
+    border-radius: 2px;
+}
+
+.tieude-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#tieude-h1 {
+    display: flex;
+    justify-content: center;
+}
+
+#tieude-h1>h1 {
+    font-family: 'Krona One', sans-serif;
+    font-size: 30px;
+}
+
+
+/* phần main body */
+#card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#card-body>p {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#card-body>h5 {
+    cursor: pointer;
+}
+
+#card-body>h5:hover {
+    font-size: 21px;
+}
+
+.card>div>img {
+    cursor: pointer;
+}
+
+.card>div>img:hover {
+    opacity: 0.5;
+}
+
+#main-body {
+    background-color: #f6f6f6;
+}

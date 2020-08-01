@@ -1,0 +1,56 @@
+#details {
+    background-color: #f6f6f6;
+}
+
+#main-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.main-img-botdom {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-img-botdom>img {
+    width: 120px;
+    height: 120px;
+}
+
+/*  */
+.default-select {
+    width: 200px;
+    height: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#icon-details {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+#icon-details:hover {
+    opacity: 0.5;
+}
+
+#img-card-details {
+    height: 280px;
+}
+
+.card>img:hover {
+    opacity: 0.5;
+}
+
+#li-list-img {
+    width: 10px;
+    height: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: brown;
+}
